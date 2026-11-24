@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff7fb">
+  <meta name="description" content="Atividades escolares de Iris Travassos Soares organizadas por matéria e período.">
+  <title>Minhas atividades | Iris Travassos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="atividades.css"><script src="atividades.js" defer></script>
+</head>
+<body>
+<header class="activities-header"><a class="brand" href="index.html"><span class="brand-symbol">i<span>✿</span></span><span>iris<span class="brand-light">.portfolio</span></span></a><a class="back-link" href="index.html">← Voltar ao portfólio</a></header>
+<main class="activities-main">
+  <section class="page-intro"><div class="intro-flower">✿</div><span class="section-kicker">PORTFÓLIO ESCOLAR · IRIS TRAVASSOS SOARES</span><h1>Minhas atividades<br><span>escolares.</span></h1><p>Explore os materiais organizados por matéria, semestre, bimestre e semana. Cada arquivo original foi mantido disponível para consulta.</p></section>
+  <section class="filter-panel" aria-label="Filtros de atividades">
+    <div class="filter-heading"><div><span class="section-kicker">ENCONTRE UM MATERIAL</span><h2>Filtrar atividades</h2></div><span class="filter-flower">♡</span></div>
+    <div class="filters">
+      <label>MATÉRIA<select id="subjectFilter"><option value="todas">Todas as matérias</option></select></label>
+      <label>SEMESTRE<select id="semesterFilter"><option value="1">1º Semestre</option><option value="2">2º Semestre</option></select></label>
+      <label>BIMESTRE<select id="termFilter"><option value="1">1º Bimestre</option><option value="2">2º Bimestre</option></select></label>
+    </div>
+    <div class="filter-bottom"><span id="periodLabel">Todas as matérias · 1º semestre · 1º bimestre</span><button id="clearFilters" type="button">Limpar filtros ↺</button></div>
+  </section>
+  <section class="results-section"><div class="results-heading"><h2>Materiais encontrados</h2><span id="activityCount">Carregando...</span></div><div id="activityList" class="activity-list" aria-live="polite"></div></section>
+  <p class="page-note">Os arquivos são mantidos em suas pastas originais dentro do projeto. Materiais externos abrem em outra aba; documentos e arquivos de programação podem ser baixados.</p>
+</main>
+<footer class="activities-footer"><a class="brand" href="index.html"><span class="brand-symbol">i<span>✿</span></span><span>iris<span class="brand-light">.portfolio</span></span></a><span>Iris Travassos Soares · Turma 3B · Desenvolvimento de Sistemas</span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">VOLTAR AO TOPO ↑</a></footer>
+</body></html>
